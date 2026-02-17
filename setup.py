@@ -11,7 +11,7 @@ with open("./README.md") as readme:
 
 
 setup(
-    name="b0x",
+    name="web3b0x",
     version="0.1",
     description="""b0x: Tiny crypto key lockbox for chat based AI agent such as OpenClaw or Nanobot""",
     long_description=long_description,
@@ -33,10 +33,4 @@ setup(
     zip_safe=False,
     keywords="ethereum",
     packages=find_packages(exclude=["scripts", "scripts.*", "tests", "tests.*"]),
-    classifiers=[
-        "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License",
-        "Natural Language :: English",
-        "Programming Language :: Python :: 3",
-    ],
 )

@@ -12,13 +12,13 @@ with open("./README.md") as readme:
 
 setup(
     name="web3b0x",
-    version="0.2",
+    version="0.3",
     description="""b0x: Tiny crypto key lockbox for chat based AI agent such as OpenClaw or Nanobot""",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="0xKJ",
     author_email="kernel1983@gmail.com",
-    url="https://github.com/w3connect/b0x",
+    url="https://github.com/ModernMagicTechnology/b0x",
     include_package_data=True,
     install_requires=[
         "web3>=6.0.0",

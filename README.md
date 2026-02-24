@@ -2,7 +2,9 @@
 
 A tiny crypto key lockbox for chat basedAI agent such as OpenClaw or Nanobot.
 
-It works with Base chain and sepolia.
+It works with Base chain, and will support more chains in the future.
+
+Use the skill https://clawhub.ai/kernel1983/w3connect to control it.
 
 To install, simple type:
 
@@ -11,9 +13,5 @@ To install, simple type:
 And run:
 
     python -m b0x
-
-Or why not run directly with pipx?
-
-    pipx run web3b0x
 
 Hope you like it!
